@@ -9,7 +9,7 @@ sender.connect("tcp://localhost:5556")
 
 model = Llama(
         # model_path="/path/to/model",
-        model_path="/home/chrish/workspace/external/mistral_quantized/mistral-7b-instruct-v0.2.Q8_0.gguf",
+        model_path="models/mistral-7b-instruct-v0.2.Q8_0.gguf",
         n_gpu_layers=-1,
         chat_format="llama-2"
         )
